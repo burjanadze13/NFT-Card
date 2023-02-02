@@ -1,0 +1,143 @@
+body{
+    background: #0D192C;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#main{
+    width:302px;
+    height:100%;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    overflow: hidden;
+    padding:24px;
+}
+#main-pic{
+    max-width: 100%;
+    border-radius: 8px;
+    height:302px;
+}
+.conteiner {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 302px;
+    width: 302px;
+    opacity: 0;
+    transition: 0.3s ease;
+    background-color: #008cba;
+    border-radius: 8px;
+  }
+
+.conteiner:hover .overlay {
+    opacity: 1;
+}
+.icon {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.fa-user:hover {
+    color: #eee;
+}
+#main > h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+#main > h1:hover{
+    cursor: pointer;
+    color: #00FFF8;
+}
+#main > p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+}
+#eth > p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+    margin:0px;
+    padding-left:5px;
+}
+#eth{
+    height: 20px;
+    display:flex;
+    flex-direction: row;
+}
+#time >p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    margin:0px;
+    padding-left:5px;
+}
+#time {
+    height:20px;
+    display:flex;
+    flex-direction: row;
+}
+#eth-time{
+    display:flex;
+    justify-content: space-between;
+}
+#rec {
+    width:302px;
+    height:1px;
+    background: #2E405A;
+    margin-top:24px;
+}
+#avatar {
+    margin-top:16px;
+    display:flex;
+    height:35px;
+}
+#avatar > img{
+    width:33px;
+    border: 1px solid #FFFFFF;
+    border-radius:50%;
+}
+#avatar > p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    margin:7px;
+}
+#avatar > p > span{
+    color: #FFFFFF;
+}
+#avatar > p > span:hover{
+    color: #00FFF8;
+    cursor: pointer;
+}
