@@ -1,9 +1,5 @@
 body{
     background: #0D192C;
-    /* display:flex;
-    justify-content: center;
-    align-items: center; */
-    position: relative;
     position: absolute;
     top: 50%;
     left: 50%;
